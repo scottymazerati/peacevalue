@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(248, 248, 231);
+    text-align: center;
+    margin: auto;
+    margin-top: 6rem;
+    
+
+}
+
+.container {
+    display: inline-flex;
+    margin: auto;
+    margin-top: -60px;
+}
+
+img {
+    border-radius: 7rem;
+}
+
+.info {
+    float: left;
+    background-color: rgb(216, 209, 209);
+    padding: 40px;
+    margin: auto;
+    margin-right: 1rem;
+    /*margin-left: 5rem;*/
+    border: 2px solid gold;
+    border-radius: 20px;
+    font-family: "Pacifico";
+    font-size: 20px;
+    text-shadow: 4px 4px 4px goldenrod;
+   /* width: 35vw;
+    height: fit-content;*/
+    height: 600px;
+    width: 30vw;
+    overflow: auto;
+}
+
+.coinbox {
+   /* float: right;*/
+    background-color: rgb(216, 209, 209);
+    padding: 40px;
+    margin: auto;
+    margin-left: 1rem;
+   /* margin-right: 6rem;*/
+    border: 2px solid gold;
+    border-radius: 20px;
+    font-family: "Pacifico";
+    text-shadow: 4px 4px 4px goldenrod;
+    width: fit-content;
+    height: fit-content;
+}
+
+button:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: black;
+    transition: 0.75s;
+}
+
+button {
+    background-color: goldenrod;
+    font-family: "Pacifico";
+    font-size: 1rem;
+    border-radius: 12px;
+   
+}
+
+marquee {
+    color:  goldenrod;/*rgb(216, 209, 209);*/
+    font-size: 3rem;
+    font-family: "Pacifico";
+    text-shadow: 4px 4px 4px black;
+    margin-top: -110px;
+}
+
